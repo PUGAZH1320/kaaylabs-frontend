@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --text-gray:#808291;
+    --text-white:#f8f9fa;
+    --text-light:#f6f6f6;
+    --text-dark:#1a3260;
+    --text-dark2:#1a3760d4;
+    --text-red:#ff4d6d;
+    --box-shadow: 0px 0px 50px 0px rgb(0 0 0/10%);
+    --bg-blue:rgb(249,243,255);
+    --bg-red:rgb(254,247,252);
+    --bg-yellow:rgb(255,255,246);
+    --bg-purple:rgb(246,255,255);
+
+    --font-poppins:"Poppins",'sans-serif';
+
+    --bg-gradient:linear-gradient(to right,#ff512f,#dd2476);
+    --bg-gradient-indigo:linear-gradient(to right,#8e2de2,#4a00e0);
+    --bg-gradient-peach:linear-gradient(to right,#fff7f3,#fff7f3);
+}
+
+.bg-gradient1 {
+  background: var(--bg-gradient);
+}
+
+.text-white{
+  color: var(--text-white);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.btn1 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-primary1 {
+  padding: .8rem 2rem;
+  border-radius: 50px;
+  font-family: var(--font-poppins);
+  font-weight: bold;
+}
+
+.btn-shadow {
+  box-shadow: var(--box-shadow);
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +87,5 @@
     transform: rotate(360deg);
   }
 }
+
+
